@@ -1,0 +1,9 @@
+<div>
+  <label>Filtrar Tareas:</label>
+  <select [(ngModel)]="selectedFilter">
+    <option value="all">Todas</option>
+    <option value="completed">Completadas</option>
+    <option value="uncompleted">No Completadas</option>
+  </select>
+  <button (click)="applyFilter()">Aplicar Filtro</button>
+</div>
